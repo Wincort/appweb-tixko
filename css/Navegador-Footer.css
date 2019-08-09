@@ -1,0 +1,171 @@
+	footer {
+	    background: darkgreen;
+	    background: url('../images/BANNER 02.jpg');
+	    background-size: cover;
+	    color: white;
+	    font-size: small;
+	}
+	
+	footer a, footer a:focus {
+	    color: white;
+	}
+	
+	footer a:hover {
+	    color: black;
+	    text-decoration: none;
+	}
+	
+	footer span[style] {
+	    color: unset !important;
+	    font-family: unset !important;
+	    font-size: unset !important;
+	    background-color: unset !important;
+	}
+	
+	footer ul {
+	    padding: 0.2rem;
+	    margin-left: 1rem;
+	}
+	
+	nav,
+	footer {
+	    font-family: Tahoma;
+	}
+	
+	.navbar-inverse {
+	    background-color: #212121;
+	    border-color: #212121;
+	}
+	
+	.navbar-form {
+	    border-top: 0;
+	    border-bottom: 0;
+	    -webkit-box-shadow: 0;
+	    box-shadow: none;
+	}
+	
+	.zona-logo {
+	    background-color: white;
+	    padding: 0;
+	}
+	
+	.LineaLogoDer {
+	    width: 42.5%;
+	    transform: translateY(150%);
+	    float: right;
+	}
+	
+	.LineaLogoIzq {
+	    width: 42.5%;
+	    transform: translateY(150%);
+	    float: left;
+	}
+	
+	.LogoTixkokob {
+	    width: 15%;
+	    float: left;
+	}
+	
+	@media (max-width: 767px) {
+	    .LineaLogoDer {
+	        width: 35%;
+	        transform: translateY(450%);
+	    }
+	    .LineaLogoIzq {
+	        width: 35%;
+	        transform: translateY(450%);
+	    }
+	    .LogoTixkokob {
+	        width: 30%;
+	    }
+	}
+	
+	.contacto {
+	    text-align: center;
+	}
+	
+	footer li {
+	    list-style-image: url(../admin/imagen/arrow_right.png);
+	    padding-top: 1rem;
+	}
+	
+	#Buscador {
+	    background: #212121;
+	    border-radius: 10rem;
+	    padding-left: 3.5rem;
+	    color: #9d9d9d;
+	}
+	
+	.ButtonIconoBuscadorNav,
+	.ButtonIconoBuscadorNav:hover,
+	.ButtonIconoBuscadorNav:focus {
+	    background: transparent;
+	    transform: translateX(4rem) translateY(0.25rem);
+	    z-index: 5 !important;
+	    cursor: pointer;
+	}
+	
+	.IconoBuscadorNav:before,
+	.IconoBuscadorNav:hover:before,
+	.IconoBuscadorNav:focus:before {
+	    content: '';
+	    display: inline-block;
+	    height: 15px;
+	    width: 15px;
+	    background-image: url('../images/BUSQUEDA-03.png');
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	}
+	
+	#Logo-911 {
+	    margin: 2rem;
+	}
+	
+	.EscudoTikokokb {
+	    margin: auto;
+	}
+	
+	@media(min-width:1120px) {
+	    .EscudoTikokokb {
+	        width: 60%;
+	    }
+	}
+	/*Modificación del Breakpoint del Navbar*/
+	
+	@media (max-width: 846px) {
+	    .navbar-header {
+	        float: none;
+	    }
+	    .navbar-left,
+	    .navbar-right {
+	        float: none !important;
+	    }
+	    .navbar-toggle {
+	        display: block;
+	    }
+	    .navbar-collapse {
+	        border-top: 1px solid transparent;
+	        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+	    }
+	    .navbar-fixed-top {
+	        top: 0;
+	        border-width: 0 0 1px;
+	    }
+	    .navbar-collapse.collapse {
+	        display: none!important;
+	    }
+	    .navbar-nav {
+	        float: none!important;
+	        margin-top: 7.5px;
+	    }
+	    .navbar-nav>li {
+	        float: none;
+	    }
+	    .navbar-nav>li>a {
+	        padding-top: 10px;
+	        padding-bottom: 10px;
+	    }
+	    .collapse.in {
+	        display: block !important;
+	    }
+	}

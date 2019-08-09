@@ -1,0 +1,31 @@
+.Header-Bkg {
+    background-image: url("../images/FOTO HISTORIA.jpg");
+    background-position: top;
+    background-size: cover;
+    height: 45rem;
+}
+
+#Titulo {
+    font-family: Franklin Gothic Demi;
+    text-align: center;
+    background: #327522;
+    color: white;
+    margin-top: 0;
+    letter-spacing: 0.2rem;
+}
+
+.Subtitulo {
+    font-family: Franklin Gothic Demi;
+}
+
+.Contenido {
+    font-family: Franklin Gothic Book;
+    text-align: justify;
+    padding-bottom: 5rem;
+}
+
+@media(min-width:435px) {
+    #Titulo {
+        font-size: 6rem;
+    }
+}

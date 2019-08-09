@@ -1,0 +1,57 @@
+.ImagenPagina img {
+    border: 1rem solid #327522;
+    border-radius: 10%;
+}
+
+#Titulo {
+    font-family: Franklin Gothic Demi;
+    text-align: center;
+    background: #327522;
+    color: white;
+    letter-spacing: 0.2rem;
+    padding: 2rem;
+}
+
+.Subtitulo {
+    font-family: Franklin Gothic Demi;
+}
+
+.Contenido {
+    font-family: Franklin Gothic Book;
+    text-align: justify;
+    padding-bottom: 5rem;
+}
+
+.fechapub {
+    padding-left: 0 !important;
+    list-style: none;
+    display: inline-block;
+}
+
+.fechapub li {
+    font: 400 normal .85em "Soberana Sans Bold";
+    line-height: 30px;
+    float: left;
+    padding-right: 10px;
+}
+
+.fechapub i {
+    color: #327522 !important;
+}
+
+.container {
+    margin-bottom: 5rem;
+}
+
+@media(min-width:435px) {
+    #Titulo {
+        font-size: 6rem;
+    }
+}
+
+.errorContenido {
+    height: 50vh;
+    transform: translateY(15vh);
+    color: red;
+	text-align: center;
+}

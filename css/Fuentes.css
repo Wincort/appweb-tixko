@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'CA Geheimagent';
+    src: url(Fuentes/CA-Geheimagent-Regular.otf);
+    font-display: auto;
+}
+
+@font-face {
+    font-family: 'Soberana Sans';
+    src: url(Fuentes/SoberanaSans-Regular.woff);
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Soberana Sans Bold';
+    src: url(Fuentes/SoberanaSans-Bold.woff);
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Tahoma';
+    src: url(Fuentes/Tahoma-Regular.ttf);
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Tahoma Bold';
+    src: url(Fuentes/Tahoma-Bold.TTF);
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Franklin Gothic Book';
+    src: url("Fuentes/Franklin Gothic Book Regular.ttf");
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Franklin Gothic Demi';
+    src: url("Fuentes/Franklin Gothic Demi Regular.ttf");
+    font-display: block;
+}

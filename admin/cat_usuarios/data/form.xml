@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<items>
+    <item type="settings"  inputWidth="220"  position="label-left" labelWidth="70"/>
+	<item type="label" 	label="Nombre"  labelWidth="200"/>
+	<item type="input"	label="Nombre (s)" 	name="nombre" 	offsetLeft="15"/>
+	<item type="input"	label="Apellidos" 	name="primer_apellido" 	offsetLeft="15"/>
+
+	<item type="label" 	label="Datos de Usuario" labelWidth="200"/>
+    <item type="input" 	label="Login" name="login" offsetLeft="15"/>
+    <item type="input" 	label="Contraseña" name="contrasena" offsetLeft="15"/>
+
+	<item type="label" 	label="Datos de Contacto" labelWidth="200"/>
+    <item type="input" 	label="Email" name="email" offsetLeft="15"/>
+    <item type="input" 	label="Teléfono" name="telefono" 	offsetLeft="15"/>
+
+	<item type="checkbox" checked="true" name="estatus" label="Activar"/>
+	<item type="button" value="Guardar" offsetTop="15" offsetLeft="230"/>
+</items>

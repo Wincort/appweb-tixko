@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<toolbar>
+	<item id="regresarAdmin" type="button" text="Administrador del Blog" img="regresar.png" imgdis="regresar.png"/>
+	<item id="sep01" type="separator"/>         
+	<!--<item id="modificarRegistro" type="button" text="Modificar" img="editar.png" imgdis="delete_contact_dis.gif"/>
+	<item id="sep01" type="separator"/>-->         
+	<!--<item id="eliminarRegistro" type="button" text="Eliminar" img="eliminar.png" imgdis="delete_contact_dis.gif"/>
+	<item id="help" type="button" text="Help"/>-->
+</toolbar>

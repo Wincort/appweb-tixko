@@ -1,0 +1,67 @@
+#Titulo {
+    font-family: Soberana Sans Bold;
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 0;
+}
+
+body {
+    background-image: url("../images/FAIS FONDO.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.panel-heading {
+    cursor: pointer;
+}
+
+.panel-group {
+    font-family: CA Geheimagent;
+    letter-spacing: 0.05rem;
+    font-size: x-large;
+}
+
+.panel-group p {
+    font-size: large;
+}
+
+.Subtitulo {
+    margin: 1rem 0rem;
+}
+
+.panel-collapse {
+    margin: 2rem;
+}
+
+.panel-default .panel-heading {
+    border-radius: 2rem 2rem 0 0;
+    color: white;
+    background-color: #00760f;
+    text-align: center;
+}
+
+.panel-group .panel {
+    border-radius: 2rem 2rem 0 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.panel-group .panel {
+    border-radius: 2rem;
+    background: white;
+}
+
+h3 {
+    color: black;
+}
+
+.panel-collapse p {
+    text-align: justify;
+}
+
+@media(min-width:435px) {
+    #Titulo {
+        font-size: 6rem;
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "items": [
+        { "id": "atractivos", "text": "Atractivos Turísticos", "icon": "blog.png" },
+        { "id": "banner_inicio", "text": "Banner Inicio", "icon": "blog.png" },
+        { "id": "boletines", "text": "Boletines", "icon": "blog.png" },
+        { "id": "comentarios", "text": "Comentarios", "icon": "blog.png" },
+        { "id": "iniciativas", "text": "Iniciativas", "icon": "blog.png" },
+        { "id": "emergencias", "text": "Núm. de Emergencia", "icon": "blog.png" },
+        { "id": "preguntas", "text": "Preguntas Frecuentes", "icon": "blog.png" },
+        { "id": "servicios", "text": "Servicios", "icon": "blog.png" },
+        { "id": "lista_transparencia", "text": "Transparencia", "icon": "blog.png" },
+        { "id": "cabildo", "text": "Cabildo", "icon": "contactos.png" },
+        { "id": "directorio", "text": "Directorio", "icon": "contactos.png" },
+        { "id": "contacto", "text": "Contacto", "icon": "contactos.png" },
+        { "type": "separator" },
+        { "id": "usuarios", "text": "Usuarios APP", "icon": "usuarios.png" },
+        { "type": "separator" },
+        { "id": "transparencia", "text": "Transparencia Old", "icon": "blog.png" },
+        { "type": "separator" }
+    ]
+}

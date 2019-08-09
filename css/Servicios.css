@@ -1,0 +1,159 @@
+    .container {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    #Resultados {
+        padding-top: 2rem !important;
+        padding: 3.5rem;
+        padding-bottom: 2rem;
+        background-color: rgba(246, 255, 245, 0.938);
+    }
+    
+    .lead {
+        text-align: right;
+    }
+    
+    .errorContenido {
+        color: #327522;
+        text-align: center;
+    }
+    
+    article {
+        border-bottom: 1px solid #ccc;
+    }
+    
+    .search-result:first-child {
+        margin-top: 0 !important;
+    }
+    
+    .search-result {
+        margin-top: 0.5rem;
+    }
+    
+    .search-result .col-md-2 {
+        border-right: 1px dotted #ccc;
+    }
+    
+    .search-result ul {
+        /*padding-left: 0 !important;*/
+        list-style: none;
+        display: inline-grid;
+    }
+    
+    .search-result ul li {
+        font: 400 normal .85em "Soberana Sans Bold";
+        line-height: 3rem;
+        float: left;
+        padding-right: 2rem;
+    }
+    
+    .search-result ul li i {
+        padding-right: 5px;
+    }
+    
+    .search-result .col-md-12 {
+        position: relative;
+    }
+    
+    .search-result h3 {
+        font: 500 normal 1.375em "Soberana Sans Bold";
+        margin-top: 0 !important;
+        margin-bottom: 10px !important;
+    }
+    
+    .search-result h3>a,
+    .search-result i,
+    .search-result b {
+        color: #327522 !important;
+    }
+    
+    .search-result p {
+        font: normal normal 1.125em Tahoma;
+    }
+    
+    .search-result span.border {
+        display: block;
+        width: 97%;
+        margin: 0 15px;
+        border-bottom: 1px dotted #ccc;
+    }
+    
+    #Titulo {
+        font-family: Soberana Sans Bold;
+        text-align: center;
+        background: #327522;
+        color: white;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    
+    .pagination>.active>a,
+    .pagination>.active>a:focus,
+    .pagination>.active>a:hover,
+    .pagination>.active>span,
+    .pagination>.active>span:focus,
+    .pagination>.active>span:hover {
+        color: #fff;
+        background-color: #327522;
+        border-color: #327522;
+    }
+    
+    .pagination>li>a,
+    .pagination>li>span {
+        color: #327522;
+        background-color: #fff;
+        border: 1px solid #327522;
+    }
+    
+    .pagination>li>a:focus,
+    .pagination>li>a:hover,
+    .pagination>li>span:focus,
+    .pagination>li>span:hover {
+        color: #327522;
+        background-color: #eee;
+        border-color: #327522;
+    }
+    
+    @media(min-width: 435px) {
+        #Titulo {
+            font-size: 6rem;
+        }
+    }
+    
+    .form-control:focus {
+        border-color: #327522;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(48, 219, 33, 0.6);
+    }
+    
+    #BuscadorTramites {
+        border-radius: 10rem 0 0 10rem;
+        padding-left: 2rem;
+        background: #e2e2e2;
+        border: 5px solid #039206;
+        color: black;
+        font-size: 2rem;
+        height: 4.9rem;
+    }
+    
+    #BotonIconoBuscadorTramites {
+        border-radius: 0 10rem 10rem 0;
+        width: 5rem;
+        background-color: #039206;
+    }
+    
+    .IconoBuscadorTramites {
+        content: '';
+        display: block;
+        height: 35px;
+        width: 25px;
+        background-image: url(../images/BUSQUEDA-02.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        transform: translate(-3px, 5px);
+    }
+    
+    .search-form {
+        /*padding: 0rem 1rem 2rem 1rem;*/
+        padding-top: 2rem;
+    }

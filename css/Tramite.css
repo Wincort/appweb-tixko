@@ -1,0 +1,28 @@
+.Titulo {
+    font-family: Franklin Gothic Demi;
+    text-align: center;
+}
+
+.Contenido {
+    font-family: Franklin Gothic Book;
+    text-align: justify;
+    padding-top: 0.1rem !important;
+    padding: 3.5rem;
+    padding-bottom: 5rem;
+    background-color: rgba(246, 255, 245, 0.938);
+}
+
+.Subtitulo {
+    border-bottom: 1px solid #ccc;
+    color: #327522;
+}
+
+.container {
+    margin-bottom: 2rem;
+}
+
+.errorContenido {
+    height: 50vh;
+    transform: translateY(15vh);
+    color: red;
+}

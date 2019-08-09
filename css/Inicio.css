@@ -1,0 +1,215 @@
+.nav-tabs,
+.list-group-item {
+    font-family: Tahoma Bold;
+    font-weight: bold;
+    border-bottom: none;
+}
+
+.TextoIconoLink a {
+    font-family: Soberana Sans Bold;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-tabs li a {
+    color: black;
+    background: url('../images/PESTANA P2-A.png') !important;
+    background-repeat: repeat;
+    z-index: 2 !important;
+    padding-top: 2rem;
+}
+
+span {
+    vertical-align: sub;
+}
+
+.nav-tabs li.active a,
+.nav-tabs li.active a:focus .nav-tabs li.active a:hover {
+    color: white !important;
+    cursor: pointer !important;
+    background: url('../images/PESTANA P5-A.png') !important;
+    background-repeat: repeat;
+    background-size: contain !important;
+    z-index: 2 !important;
+}
+
+.nav-tabs li.active a:before,
+.nav-tabs li.active a:after {
+    display: block;
+    content: " ";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-repeat: round;
+    background-size: cover;
+}
+
+.nav-tabs li.active a:before {
+    left: -0.3rem;
+    background-image: url('../images/PESTANA P4.png');
+    z-index: 3 !important;
+    width: 5;
+}
+
+.nav-tabs li.active a:after {
+    right: -3rem;
+    background-image: url('../images/PESTANA P6.png');
+    z-index: 1 !important;
+    width: 33px;
+}
+
+.nav-tabs li a:before,
+.nav-tabs li a:after {
+    display: block;
+    content: " ";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-repeat: round;
+    background-size: cover;
+}
+
+.nav-tabs li a:before {
+    left: -0.3rem;
+    background-image: url('../images/PESTANA P1.png');
+    z-index: 3 !important;
+    width: 5px;
+}
+
+.nav-tabs li a:after {
+    right: -3rem;
+    background-image: url('../images/PESTANA P3.png');
+    z-index: 1 !important;
+    width: 33px;
+}
+
+.nav-tabs.nav-justified li {
+    padding-right: 1.6rem;
+}
+
+.nav-tabs.nav-justified li.Inicio {
+    padding-right: 2rem;
+}
+
+.nav-tabs.nav-justified li a,
+.nav-tabs.nav-justified li a:hover {
+    border: none !important;
+    -webkit-box-shadow: inset -20px 0px 20px 2px rgba(234, 234, 234, 1);
+    -moz-box-shadow: inset -20px 0px 20px 2px rgba(234, 234, 234, 1);
+    box-shadow: inset -20px 0px 20px 2px rgb(234, 234, 234);
+    font-size: large;
+}
+
+.nav-tabs.nav-justified li.active a,
+.nav-tabs.nav-justified li.ative a:hover {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.list-group-horizontal .list-group-item {
+    display: inline-block;
+    border: none;
+    padding: 1em 5rem;
+    background: transparent;
+}
+
+#BuscadorInicio {
+    border-radius: 10rem 0 0 10rem;
+    padding-left: 2rem;
+    background: #e2e2e2;
+    border: 5px solid #fff;
+    color: black;
+    font-size: 2rem;
+    height: 5rem;
+}
+
+#BotonIconoBuscadorInicio {
+    border-radius: 0 10rem 10rem 0;
+    width: 5rem;
+    background-color: #039206;
+}
+
+.IconoBuscadorInicio {
+    content: '';
+    display: block;
+    height: 35px;
+    width: 25px;
+    background-image: url(../images/BUSQUEDA-02.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: translate(-3px, 5px);
+}
+
+.IconoMenu:before {
+    content: '';
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background-image: url('../images/BOTON 02.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: -35px;
+    vertical-align: middle;
+    margin-right: 1rem;
+}
+
+.IconoMenu:hover {
+    background-color: unset !important;
+}
+
+.IconoMenu:hover:before {
+    background-image: url('../images/BOTON 01.png');
+}
+
+.center {
+    margin: auto;
+}
+
+#menu {
+    padding-top: 1rem;
+    padding-left: 0;
+    padding-right: 0.8rem;
+}
+
+
+/*SWIPERS*/
+
+.carousel-caption {
+    position: absolute;
+    color: #fff;
+    text-align: justify;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    background: rgb(0, 0, 0, 0.5);
+    left: 0;
+    right: 0;
+    padding-top: 0.5rem;
+    /*width: 100%;*/
+}
+
+.carousel-caption p {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.bottom {
+    bottom: 0px;
+    padding-bottom: 0rem;
+}
+
+.img-slide-principal {
+    background-size: cover;
+    background-position: top;
+    height: 60vh !important;
+}
+
+.img-slide-secundario {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh !important;
+}

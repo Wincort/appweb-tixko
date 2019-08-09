@@ -1,0 +1,87 @@
+.Header-Bkg {
+    background-image: url("../images/FOTO CORTADA.jpg");
+    background-position: top;
+    background-size: cover;
+    height: 50rem;
+}
+
+.Subtitulo,
+.Contenido {
+    color: white;
+    font-family: "CA Geheimagent";
+    letter-spacing: 0.05rem;
+    font-size: x-large;
+}
+
+.Subtitulo {
+    text-align: center;
+    font-size: larger;
+}
+
+.Contenido {
+    text-align: justify;
+    padding: 0 2rem;
+    line-height: 4.5rem;
+    padding-bottom: 5rem;
+}
+
+#Mision,
+.Icono-Bkg-Mision {
+    background-color: #8cc127;
+}
+
+#Vision,
+.Icono-Bkg-Vision {
+    background-color: #328e22;
+}
+
+#Valores,
+.Icono-Bkg-Valores {
+    background-color: #327522;
+}
+
+.IconoMision,
+.IconoVision,
+.IconoValores {
+    height: 6rem;
+    width: 6rem;
+    background-size: contain;
+    margin: auto;
+}
+
+.Icono-Bkg {
+    margin: auto;
+    width: 15rem;
+    padding-top: 2.5rem;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.IconoMision {
+    background-image: url("../images/MISION-icono.png");
+}
+
+.IconoVision {
+    background-image: url("../images/VISION-icono.png");
+}
+
+.IconoValores {
+    background-image: url("../images/VALORES-icono.png");
+}
+
+.linea {
+    width: 20%;
+    height: 1rem;
+    background: white;
+    margin: auto;
+    display: none;
+}
+
+@media(min-width:768px) {
+    .Icono-Bkg {
+        transform: translateY(-100%);
+    }
+    .Contenido {
+        padding-bottom: 10rem;
+    }
+}

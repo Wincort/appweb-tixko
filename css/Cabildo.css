@@ -1,0 +1,145 @@
+#Titulo {
+    font-family: Soberana Sans Bold;
+    text-align: center;
+    background: #327522;
+    color: white;
+    margin-top: 0;
+}
+
+.Ficha-Cabildo,
+.FichaPrincipal {
+    display: flex;
+    padding: 2rem;
+}
+
+.centrado {
+    position: relative;
+    transform: translate(-50%, -50%) scale(0.9);
+    top: 50%;
+    left: 100%;
+}
+
+.half-circle {
+    width: 70px;
+    background-color: transparent;
+    border-top-left-radius: 110px;
+    border-bottom-left-radius: 110px;
+    border: 2rem solid #314623;
+    border-right: 0;
+}
+
+.img-cirlce {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 50%;
+    border: 3px solid #314623;
+}
+
+.img-cirlce-bg {
+    padding: 0;
+    background-color: transparent;
+    border-radius: 50% 0 0 50%;
+    border: 1rem solid #314623;
+    border-right: none;
+}
+
+.cuadrogris {
+    width: 120px;
+    border: none;
+    background: #e0e0e0;
+}
+
+.Info-Cabildo {
+    background-color: #e0e0e0;
+    padding: 1rem;
+    width: 100%;
+    border-right: 2.5rem solid #314623;
+    display: inline-grid;
+    font-family: Tahoma;
+}
+
+h4 {
+    overflow: hidden;
+    margin-bottom: 0;
+    overflow-x: auto;
+}
+
+@media(min-width:992px) {
+    .FichaPrincipal {
+        padding: 1rem 20rem;
+    }
+}
+
+@media(min-width:435px) {
+    #Titulo {
+        font-size: 6rem;
+    }
+}
+
+
+/*AJUSTES A SEECIÓN CIRCULAR DE FICHA*/
+
+@media(max-width:1199px) {
+    .half-circle {
+        width: 72.5px;
+    }
+    .centrado {
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+@media(max-width:991px) {
+    .half-circle {
+        width: 70px;
+    }
+    .centrado {
+        transform: translate(-50%, -50%) scale(0.9);
+    }
+}
+
+@media(max-width:682px) {
+    .half-circle {
+        width: 70px;
+    }
+    .centrado {
+        transform: translate(-50%, -50%) scale(0.9);
+    }
+}
+
+@media(max-width:609px) {
+    .half-circle {
+        width: 72px;
+    }
+    .centrado {
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+@media(max-width:534px) {
+    .half-circle {
+        width: 80px;
+    }
+    .centrado {
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+
+/*@media(max-width:605px) {
+    .half-circle {
+        width: 110px;
+    }
+    .centrado {
+        transform: translate(-50%, -50%) scale(1.3);
+    }
+}
+
+@media(max-width:580) {
+    .half-circle {
+        width: 110px;
+    }
+    .centrado {
+        transform: translate(-50%, -50%) scale(1.5);
+    }
+}*/

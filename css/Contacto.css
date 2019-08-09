@@ -1,0 +1,79 @@
+.google-container {
+    height: 70vh;
+    position: inherit;
+    margin: 0;
+}
+
+.img-contacto img {
+    margin: auto;
+    width: 100%;
+    display: none;
+}
+
+.img-contacto {
+    padding: 0;
+    background-image: url("../images/FOTO CONTACTO.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#formulario {
+    font-family: Franklin Gothic Book;
+    font-weight: bold;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#formulario input,
+#formulario textarea {
+    margin: 1rem;
+    border-color: #B5D6A9;
+    border-radius: 1rem;
+}
+
+#formulario input:focus,
+#formulario textarea:focus {
+    border-color: #327522;
+    box-shadow: none;
+}
+
+#formulario input {
+    height: 5rem;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.ColFormulario {
+    padding: 0 1rem;
+}
+
+.DivGuardar {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.form-contacto {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.btn-success {
+    font-size: xx-large;
+    border-radius: 20px;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+}
+
+.btn-success,
+.btn-success:focus {
+    background-color: #3C9118;
+    border-color: #3C9118;
+}
+
+.btn-success:hover {
+    background-color: #327522 !important;
+    border-color: #327522 !important;
+}

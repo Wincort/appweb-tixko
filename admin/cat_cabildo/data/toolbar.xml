@@ -1,0 +1,4 @@
+<toolbar>
+	<item id="nuevoRegistro" type="button" text="Agregar" img="agregar.png" imgdis="add_contact_dis.gif"/>
+	<item id="sep01" type="separator"/>         
+</toolbar>

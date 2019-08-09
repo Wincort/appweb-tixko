@@ -1,0 +1,56 @@
+.Header-Bkg {
+    background-image: url("../images/ATRACTIVOS.jpg");
+    background-position: top;
+    background-size: cover;
+    height: 44rem;
+}
+
+#Titulo {
+    font-family: Franklin Gothic Demi;
+    text-align: center;
+    background: #327522;
+    color: white;
+    margin-top: 0;
+    letter-spacing: 0.3rem;
+}
+
+.Subtitulo {
+    font-family: Franklin Gothic Demi;
+}
+
+.Contenido {
+    font-family: Franklin Gothic Book;
+    text-align: justify;
+}
+
+.seccion-atractivo {
+    border-bottom: 1rem solid #6fc200;
+    margin: 1rem;
+}
+
+.container {
+    padding-bottom: 3rem;
+}
+
+@media(min-width:435px) {
+    #Titulo {
+        font-size: 5rem;
+        padding-top: 2rem;
+    }
+}
+
+@media(max-width:767px) {
+    .Subtitulo {
+        text-align: center;
+    }
+    .img-contenido img {
+        padding-left: 0;
+        margin: auto;
+    }
+}
+
+@media(min-width:768px) {
+    .img-contenido {
+        padding-left: 0;
+    }
+}

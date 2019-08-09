@@ -1,0 +1,5 @@
+<toolbar>
+	<item id="newContact" type="button" text="Agregar" img="user_add.png" imgdis="add_contact_dis.gif"/>
+	<item id="sep01" type="separator"/>         
+	<item id="delContact" type="button" text="Eliminar" img="user_delete.png" imgdis="delete_contact_dis.gif"/>
+</toolbar>
