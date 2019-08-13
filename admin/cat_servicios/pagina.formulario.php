@@ -266,7 +266,10 @@ else{
 		menubar: false,
 		toolbar: false,
 		statusbar: false,
-		height : 100
+		height : 100,
+		oninit : "setPlainText",
+		plugins : "paste",
+		paste_as_text: true
 	});
 </script>
 <script type="text/javascript">		
