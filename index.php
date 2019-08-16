@@ -48,6 +48,7 @@ $ListaBannerInicio = $oWEB->TraerBannerInicio();
                 <a class="list-group-item IconoMenu" href="Directorio.php">DIRECTORIO</a>
                 <a class="list-group-item IconoMenu" href="Boletines.php">BOLETINES</a>
                 <a class="list-group-item IconoMenu" href="Servicios.php">SERVICIOS</a>
+                <a class="list-group-item IconoMenu" href="Organigrama.php">ORGANIGRAMA</a>
             </div>
         </div>
         <div id="Transparencia" class="tab-pane fade in"> 

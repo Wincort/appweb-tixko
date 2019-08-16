@@ -296,6 +296,21 @@ class PaginaWEB {
 		mysql_free_result($result);
 		return $resultados;
 	}
+	
+	function TraerOrganigrama(){
+		$conexionBaseDatos= new ConexionBaseDatos();
+		$sql="SELECT * FROM cat_organigrama where publicar='SI'";
+		$result=$conexionBaseDatos->ejecutar_consulta($sql);
+		$resultados=array();
+		while($row = mysql_fetch_array($result)){
+			$registro=array();
+			$registro['id']=$row['id'];
+			$registro['imagen']=utf8_encode($row['imagen']);
+			array_push($resultados,$registro);
+		}
+		mysql_free_result($result);
+		return $resultados;
+	}
 
 	function TraerTop5Boletines(){
 		$conexionBaseDatos= new ConexionBaseDatos();

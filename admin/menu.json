@@ -6,6 +6,7 @@
         { "id": "comentarios", "text": "Comentarios", "icon": "blog.png" },
         { "id": "iniciativas", "text": "Iniciativas", "icon": "blog.png" },
         { "id": "emergencias", "text": "Núm. de Emergencia", "icon": "blog.png" },
+		{ "id": "organigrama", "text": "Organigrama", "icon": "blog.png" },
         { "id": "preguntas", "text": "Preguntas Frecuentes", "icon": "blog.png" },
         { "id": "servicios", "text": "Servicios", "icon": "blog.png" },
         { "id": "lista_transparencia", "text": "Transparencia", "icon": "blog.png" },
