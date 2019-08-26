@@ -43,6 +43,39 @@ class PaginaWEB {
 		mysql_free_result($result);
 		return $resultados;
 	}
+
+	function TraerHistoria(){
+		$conexionBaseDatos= new ConexionBaseDatos();
+		$sql="SELECT * FROM cat_historia where publicar='SI' and id=1";
+		$result=$conexionBaseDatos->ejecutar_consulta($sql);
+		$resultados=array();
+		while($row = mysql_fetch_array($result)){
+			$registro=array();
+			$registro['id']=$row['id'];
+			$registro['historia']=html_entity_decode($row['historia']);
+			array_push($resultados,$registro);
+		}
+		mysql_free_result($result);
+		return $resultados;
+	}
+
+	function TraerMVV(){
+		$conexionBaseDatos= new ConexionBaseDatos();
+		$sql="SELECT * FROM cat_mvv where publicar='SI' and id=1";
+		$result=$conexionBaseDatos->ejecutar_consulta($sql);
+		$resultados=array();
+		while($row = mysql_fetch_array($result)){
+			$registro=array();
+			$registro['id']=$row['id'];
+			$registro['mision']=html_entity_decode($row['mision']);
+			$registro['vision']=html_entity_decode($row['vision']);
+			$registro['valores']=html_entity_decode($row['valores']);
+			array_push($resultados,$registro);
+		}
+		mysql_free_result($result);
+		return $resultados;
+	}
+
 	//Usado en Página CONAC (SIN AGRUPACION POR PERIODO) (old)
 	function TraerListaTransparencia($estatus){
 		$conexionBaseDatos= new ConexionBaseDatos();

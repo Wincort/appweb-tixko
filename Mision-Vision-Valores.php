@@ -1,6 +1,10 @@
 <?php
 include_once('admin/classes/BO.php');
 $oWEB = new PaginaWEB();
+$ListaMVV=$oWEB->TraerMVV();
+$Mision=$ListaMVV[0]['mision'];
+$Vision=$ListaMVV[0]['vision'];
+$Valores=$ListaMVV[0]['valores'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -32,9 +36,7 @@ $oWEB = new PaginaWEB();
                 <h1>MISIÓN</h1>
             </div>
             <div class="Contenido">
-                <p>
-                Ser un gobierno municipal impulsor de la inclusión social, la equidad y el desarrollo armónico de su gente, a través de una administración eficiente y transparente de los recursos, que permita a las personas recobrar la confianza y la credibilidad en las instancias municipales.
-                </p>
+            <?=$Mision;?>    
             </div>
             <div class="linea"></div>
         </div>
@@ -45,9 +47,7 @@ $oWEB = new PaginaWEB();
                 <h1>VISIÓN</h1>
             </div>
             <div class="Contenido">
-                <p>
-                Tixkokob, comunidad, armónica, segura tranquilidad y ordenada, por ello llegará a mejorar los niveles de vida de su gente.
-                </p>
+            <?=$Vision;?>    
             </div>
             <div class="linea"></div>
         </div>
@@ -57,9 +57,7 @@ $oWEB = new PaginaWEB();
                 <h1>VALORES</h1>
             </div>
             <div class="Contenido">
-                <p>
-                Un buen gobierno no puede construirse al margen del establecimiento de ciertos compromisos, muy concretos, con una serie de valores y principios éticos que dan sentido trascendente a la función pública. Es indispensable vincular las decisiones de gobierno con las formas de relación con los ciudadanos, y el ejercicio del de gobernar, con el núcleo básico de valores que orienten a los servidores públicos municipales que forman parte de la administración pública de Tixkokob.
-                </p>
+            <?=$Valores;?>    
             </div>
             <div class="linea"></div>
         </div>
