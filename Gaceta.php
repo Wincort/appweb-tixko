@@ -3,6 +3,10 @@
 	$oWEB = new PaginaWEB();
 	$Gaceta = new PaginaWEB();
 	$ListaGaceta= $Gaceta->TraerListaGaceta();
+	
+	include_once('admin/contadorweb.php');
+    $page_name="Gaceta";
+    visitante($page_name);
 ?>
 <!DOCTYPE html>
 <html lang="en">

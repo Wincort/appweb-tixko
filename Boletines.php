@@ -9,7 +9,12 @@
     $CantidadResultados = $Boletines->TraerCuentaBoletines();
     $Pagina->set_CantidadFilas($CantidadResultados);
     $FilaInicial = $Pagina->get_FilaInicial();
-    $ListaBoletines= $Boletines->TraerBoletines($FilaInicial,$CantidadFilas);
+	$ListaBoletines= $Boletines->TraerBoletines($FilaInicial,$CantidadFilas);
+	
+	include_once('admin/contadorweb.php');
+    $page_name="Boletines";
+	visitante($page_name);
+	
 ?>
 <!DOCTYPE html>
 <html lang="en">

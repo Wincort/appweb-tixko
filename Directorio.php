@@ -2,7 +2,12 @@
     include_once('admin/classes/BO.php');
     $oWEB = new PaginaWEB();
     $Directorio= new PaginaWeb();
-    $ListaDirectorio=$Directorio->TraerDirectorio();
+	$ListaDirectorio=$Directorio->TraerDirectorio();
+	
+	include_once('admin/contadorweb.php');
+    $page_name="Directorio";
+	visitante($page_name);
+	
 ?>
 <!DOCTYPE html>
 <html lang="en">

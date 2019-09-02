@@ -24,6 +24,10 @@
 			$ResultadosQuery= $Buscador->TraerResultados($query,$FilaInicial,$CantidadFilas);
 		}
 	}
+
+	include_once('admin/contadorweb.php');
+	$page_name="Buscador";
+	visitante($page_name);
     
 ?>
 

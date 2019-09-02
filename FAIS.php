@@ -3,6 +3,9 @@
 	$oWEB = new PaginaWEB();
 	$FAIS = new PaginaWEB();
 	$ListaFAIS= $FAIS->TraerListaFAIS();
+	include_once('admin/contadorweb.php');
+    $page_name="FAIS";
+    visitante($page_name);
 ?>
 <!DOCTYPE html>
 <html lang="en">

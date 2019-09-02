@@ -3,6 +3,10 @@
     $oWEB = new PaginaWEB();
     $Atractivos= new PaginaWeb();
     $ListaAtractivos=$Atractivos->TraerAtractivos();
+
+    include_once('admin/contadorweb.php');
+    $page_name="Atractivos";
+    visitante($page_name);
 ?>
 <!DOCTYPE html>
 <html lang="en">

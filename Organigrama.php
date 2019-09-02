@@ -4,6 +4,10 @@ $oWEB = new PaginaWEB();
 $Org=$oWEB->TraerOrganigrama();
 $RutaImg=$Org[0]['imagen'];
 
+include_once('admin/contadorweb.php');
+$page_name="Organigrama";
+visitante($page_name);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

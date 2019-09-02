@@ -1,8 +1,14 @@
 <?php
 include_once('admin/classes/BO.php');
+
 $oWEB = new PaginaWEB();
 $ListaBoletines = $oWEB->TraerTop5Boletines();
 $ListaBannerInicio = $oWEB->TraerBannerInicio();
+
+include_once('admin/contadorweb.php');
+$page_name="Inicio";
+visitante($page_name);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

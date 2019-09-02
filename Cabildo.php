@@ -3,6 +3,10 @@
     $oWEB = new PaginaWEB();
     $Cabildo= new PaginaWeb();
     $ListaCabildo=$Cabildo->TraerCabildo();
+
+    include_once('admin/contadorweb.php');
+    $page_name="Cabildo";
+    visitante($page_name);
 ?>
 <!DOCTYPE html>
 <html lang="en">

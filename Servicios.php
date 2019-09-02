@@ -12,7 +12,12 @@
     $CantidadResultados = $Tramites->TraerCuentaTramitesBusqueda($query);
     $Pagina->set_CantidadFilas($CantidadResultados);
     $FilaInicial = $Pagina->get_FilaInicial();
-    $ListaTramites= $Tramites->TraerTramitesBusqueda($query,$FilaInicial,$CantidadFilas);
+	$ListaTramites= $Tramites->TraerTramitesBusqueda($query,$FilaInicial,$CantidadFilas);
+	
+	include_once('admin/contadorweb.php');
+	$page_name="Trámites y Servicios";
+	visitante($page_name);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

@@ -2,7 +2,12 @@
     include_once('admin/classes/BO.php');
     $oWEB = new PaginaWEB();
     $Preguntas= new PaginaWeb();
-    $ListaPreguntas=$Preguntas->TraerPreguntasFrecuentes();
+	$ListaPreguntas=$Preguntas->TraerPreguntasFrecuentes();
+	
+	include_once('admin/contadorweb.php');
+	$page_name="Preguntas Frecuentes";
+	visitante($page_name);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

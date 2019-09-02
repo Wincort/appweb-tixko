@@ -2,7 +2,12 @@
     include_once('admin/classes/BO.php');
     $oWEB = new PaginaWEB();
     $Emergencias= new PaginaWeb();
-    $ListaEmergencias=$Emergencias->TraerNumerosEmergencia();
+	$ListaEmergencias=$Emergencias->TraerNumerosEmergencia();
+	
+	include_once('admin/contadorweb.php');
+    $page_name="Números de Emergencia";
+    visitante($page_name);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

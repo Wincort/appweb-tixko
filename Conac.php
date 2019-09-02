@@ -1,6 +1,11 @@
 <?php
 include_once('admin/classes/BO.php');
 $oWEB = new PaginaWEB();
+
+include_once('admin/contadorweb.php');
+$page_name="CONAC";
+visitante($page_name);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

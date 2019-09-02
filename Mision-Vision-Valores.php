@@ -5,11 +5,16 @@ $ListaMVV=$oWEB->TraerMVV();
 $Mision=$ListaMVV[0]['mision'];
 $Vision=$ListaMVV[0]['vision'];
 $Valores=$ListaMVV[0]['valores'];
+
+include_once('admin/contadorweb.php');
+$page_name="Misión, Visión y Valores";
+visitante($page_name);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Misión-Visión-Valores</title>
+  <title>Misión, Visión y Valores</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="lib/bootstrap/3.3.7/css/bootstrap.min.css">

@@ -3,6 +3,11 @@ include_once('admin/classes/BO.php');
 $oWEB = new PaginaWEB();
 $ListaHistoria=$oWEB->TraerHistoria();
 $Historia=$ListaHistoria[0]['historia'];
+
+include_once('admin/contadorweb.php');
+$page_name="Historia";
+visitante($page_name);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

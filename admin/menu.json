@@ -17,6 +17,7 @@
         { "id": "contacto", "text": "Contacto", "icon": "contactos.png" },
         { "type": "separator" },
         { "id": "usuarios", "text": "Usuarios APP", "icon": "usuarios.png" },
+        { "id": "visitas", "text": "Contador Visitas", "icon": "exitos - copia.png" },
         { "type": "separator" },
         { "id": "transparencia", "text": "Transparencia Old", "icon": "blog.png" },
         { "type": "separator" }
