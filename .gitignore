@@ -2,3 +2,5 @@ test/
 _notes/
 admin/classes/config.php
 admin/*/multimedia/*
+*.zip
+admin/cat_lista_transparencia/Archivos/*

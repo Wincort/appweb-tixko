@@ -63,6 +63,7 @@ visitante($page_name);
                 <a class="list-group-item IconoMenu" href="INAIP.php">ARTÍCULO 70 Y 71</a>
                 <a class="list-group-item IconoMenu" href="FAIS.php">FAIS</a>
                 <a class="list-group-item IconoMenu" href="Gaceta.php">GACETA</a>
+                <a class="list-group-item IconoMenu" href="SEVAC.php">SEVAC</a>
             </div>
         </div>
         <div id="Contacto" class="tab-pane fade in">

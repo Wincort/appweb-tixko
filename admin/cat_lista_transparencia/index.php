@@ -45,13 +45,13 @@
             myCellA.setText("Transparencia");                                    
 
             GridLista = myCellA.attachGrid();                           
-            GridLista.setHeader("Registro,Página,Publicar,Archivos,Editar");
-            GridLista.setColumnIds("registro,pagina,publicar,addfiles,editar");                         
-            GridLista.setInitWidthsP("70,10,8,7,5");                                
-            GridLista.setColAlign("left,center,center,center,center");                            
-            GridLista.setColTypes("ro,ro,ro,ro,ro");                                 
-            GridLista.setColSorting("str,str,str,str,str");                               
-            GridLista.attachHeader("#text_filter,#select_filter,#select_filter,,");  
+            GridLista.setHeader("Registro,Página,Periodo,Publicar,Archivos,Editar");
+            GridLista.setColumnIds("registro,pagina,periodo,publicar,addfiles,editar");                         
+            GridLista.setInitWidthsP("60,10,10,8,7,5");                                
+            GridLista.setColAlign("left,center,center,center,center,center");                            
+            GridLista.setColTypes("ro,ro,ro,ro,ro,ro");                                 
+            GridLista.setColSorting("str,str,str,str,str,str");                               
+            GridLista.attachHeader("#text_filter,#select_filter,#select_filter,#select_filter,,");  
             GridLista.enableMultiline(true);      
 			GridLista.attachEvent("onRowSelect",function(id){
                 	 

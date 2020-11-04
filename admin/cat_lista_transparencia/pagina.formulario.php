@@ -167,7 +167,8 @@ else{
 					<option value="" <?php echo $pagina=='' ? 'selected' : ''; ?> >Sin página</option>
 					<option value="CONAC" <?php echo $pagina=='CONAC' ? 'selected' : ''; ?> >CONAC</option>
 					<option value="FAIS" <?php echo $pagina=='FAIS' ? 'selected' : ''; ?> >FAIS</option>
-					<option value="GACETA" <?php echo $pagina=='GACETA' ? 'selected' : ''; ?> >GACETA</option>		
+					<option value="GACETA" <?php echo $pagina=='GACETA' ? 'selected' : ''; ?> >GACETA</option>
+					<option value="SEVAC" <?php echo $pagina=='SEVAC' ? 'selected' : ''; ?> >SEVAC</option>		
 				</select>				
 			</td>
 			<td width="20%"  id="ColumnaPeriodo">
@@ -238,8 +239,16 @@ else{
 <script>
 let MostrarPeriodo = () => {
 	let TipoPagina=$('#pagina').val();
-	TipoPagina=='CONAC' ? $('#periodo').css('display', 'block') : $('#periodo').css('display', 'none');
-	TipoPagina=='CONAC' ? $('#labelPeriodo').css('display', 'block') : $('#labelPeriodo').css('display', 'none');
+	/*TipoPagina=='CONAC' ? $('#periodo').css('display', 'block') : $('#periodo').css('display', 'none');
+	TipoPagina=='CONAC' ? $('#labelPeriodo').css('display', 'block') : $('#labelPeriodo').css('display', 'none');*/
+	if(TipoPagina=='CONAC' || TipoPagina=='SEVAC'){
+		$('#periodo').css('display', 'block');
+		$('#labelPeriodo').css('display', 'block');
+	}
+	else{
+		$('#periodo').css('display', 'none');
+		$('#labelPeriodo').css('display', 'none');
+	}
 }
 </script>
 </body>
